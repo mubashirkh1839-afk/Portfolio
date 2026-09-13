@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mubashir Ahmad | Computer Science Student & Aspiring Web / Cloud Developer Portfolio" />
+  <title>Mubashir Ahmad | CS Student & Aspiring Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23070b14'/><text x='50%' y='68%' font-size='60' font-weight='800' fill='%2338bdf8' font-family='sans-serif' text-anchor='middle'>M</text></svg>" />
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mubashir Ahmad | CS Student & Aspiring Developer" />
+  <meta property="og:description" content="Portfolio of Mubashir Ahmad - Computer Science Student, Learning Full-Stack & Cloud Technologies." />
+  <meta property="og:image" content="mubashir.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="navbar container">
+        <a class="brand" href="#home" aria-label="Mubashir Ahmad">
+          <span class="brand-mark">M</span>
+          <span class="brand-text">Mubashir Ahmad</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-menu">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#experience">Milestones</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <button type="button" class="btn-cmd-trigger" id="btn-cmd-trigger" title="Command Palette (Ctrl+K)">
+            <span>⌘K</span>
+          </button>
+          <a class="header-button" href="#contact">Let’s Talk</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero section-pad" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="section-label">
+              <span></span>
+              CS Student • Learning & Building
+            </div>
+            <h1>Aspiring <span class="highlight-text">Web & Cloud</span> Developer.</h1>
+            <p class="hero-lede">
+              I’m <strong>Mubashir Ahmad</strong>, a Computer Science undergraduate at Allenhouse Institute of Technology. I am actively learning modern full-stack development, cloud foundations, and solving real-world challenges through code.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#projects">
+                <span>View My Project</span>
+                <svg viewBox="0 0 24 24" class="btn-icon">
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a class="btn btn-secondary" href="Mubashir_Ahmad_Resume.pdf" download="Mubashir_Ahmad_Resume.pdf">
+                <span>Download CV</span>
+                <svg viewBox="0 0 24 24" class="btn-icon">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="hero-proof">
+              <div>
+                <span class="proof-number">8.0/10</span>
+                <span class="proof-label">B.Tech GPA</span>
+              </div>
+              <div>
+                <span class="proof-number">Learning</span>
+                <span class="proof-label">Full-Stack Tech</span>
+              </div>
+              <div>
+                <span class="proof-number">DSA</span>
+                <span class="proof-label">Problem Solving</span>
+              </div>
+            </div>
+
+            <div class="hero-social">
+              <a href="https://www.linkedin.com/in/mubashir-ahmad-92167a363" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.78a1.64 1.64 0 1 0 0 3.27 1.64 1.64 0 0 0 0-3.27z"/></svg>
+              </a>
+              <a href="https://github.com/mubashirkh1839-afk" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              </a>
+              <a href="https://leetcode.com/u/mubashirkh_1839/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" title="LeetCode Profile">
+                <svg viewBox="0 0 24 24"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.607 2.6 2.6 0 0 1 .388-.392l4.271-4.571 5.405-5.787a1.378 1.378 0 0 0-.986-2.364zm1.884 10.957a1.38 1.38 0 0 0-1.38 1.382v.005a1.382 1.382 0 0 0 1.38 1.382h6.25a1.38 1.38 0 0 0 1.38-1.382v-.005a1.382 1.382 0 0 0-1.38-1.382z"/></svg>
+              </a>
+              <a href="mailto:mubashirkh1839@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-panel reveal">
+            <div class="hero-card">
+              <div class="hero-card-top">
+                <span class="card-dot"></span>
+                <span class="card-dot"></span>
+                <span class="card-dot"></span>
+                <span class="card-title">mubashir://terminal</span>
+              </div>
+
+              <div class="profile-card">
+                <div class="profile-photo">
+                  <div class="profile-photo-inner">
+                    <img src="mubashir.jpg" alt="Mubashir Ahmad" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                    <span class="profile-initial" style="display:none;">M</span>
+                  </div>
+                </div>
+                <div class="profile-details">
+                  <span class="profile-role">CS Student / Learning Web & Cloud</span>
+                  <h3>Mubashir Ahmad</h3>
+                  <span class="profile-line"></span>
+                </div>
+
+                <div class="code-stack">
+                  <div class="code-line">
+                    <span class="code-comment">// Current Focus</span>
+                  </div>
+                  <div class="code-line">
+                    <span class="code-comment">const</span>
+                    <span class="code-value">learning = ["React", "Node.js", "MongoDB", "DSA"];</span>
+                  </div>
+                  <div class="code-line">
+                    <span class="code-comment">return</span>
+                    <span class="code-value">growth & continuousLearning;</span>
+                  </div>
+                </div>
+
+                <div class="signal-grid">
+                  <div>
+                    <span class="signal-label">Status</span>
+                    <span class="signal-value status-badge">Student / Learning</span>
+                  </div>
+                  <div>
+                    <span class="signal-label">Location</span>
+                    <span class="signal-value">Kanpur, UP / Remote</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="floating-card floating-card-one">
+                <span class="floating-card-icon">⚡</span>
+                <span>Hackathon Finalist</span>
+              </div>
+              <div class="floating-card floating-card-two">
+                <span class="floating-card-icon">💡</span>
+                <span>Learning Web & Cloud</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- MARQUEE / SKILLS STRIP -->
+      <section class="marquee">
+        <div class="marquee-track">
+          <span>React.js</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB</span>
+          <span>Socket.IO</span>
+          <span>Tailwind CSS</span>
+          <span>Python</span>
+          <span>C++</span>
+          <span>AWS / GCP</span>
+          <span>Git & Linux</span>
+          <span>RESTful APIs</span>
+          <span>JWT Auth</span>
+          <span>React.js</span>
+          <span>Node.js</span>
+          <span>Express.js</span>
+          <span>MongoDB</span>
+          <span>Socket.IO</span>
+          <span>Tailwind CSS</span>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section section-light" id="about">
+        <div class="container two-column">
+          <div class="section-intro reveal">
+            <span class="section-label dark">
+              <span></span>
+              About Me
+            </span>
+            <h2>Building strong foundations & practical software.</h2>
+            <p>
+              I am a dedicated Computer Science undergraduate at <strong>Allenhouse Institute of Technology</strong>, enthusiastic about learning modern web development and cloud engineering.
+            </p>
+            <p>
+              As a student, I focus on hands-on project-based learning — applying theoretical concepts like Data Structures and Database Management to build real-world applications like FoodRescue, experimenting with real-time WebSockets, mapping integrations, and secure authentication flows.
+            </p>
+
+            <div class="about-highlights">
+              <div class="about-highlight">
+                <span class="highlight-number">01</span>
+                <div>
+                  <h4>Problem Solving & DSA</h4>
+                  <p>Consistent practice in C++ and Python, focusing on algorithms, time complexity, and logical thinking.</p>
+                </div>
+              </div>
+              <div class="about-highlight">
+                <span class="highlight-number">02</span>
+                <div>
+                  <h4>Hands-on Web & Cloud Learning</h4>
+                  <p>Exploring modern full-stack technologies (React, Node.js, Express, MongoDB) and cloud foundations (AWS/GCP, Linux).</p>
+                </div>
+              </div>
+              <div class="about-highlight">
+                <span class="highlight-number">03</span>
+                <div>
+                  <h4>Hackathon & Team Collaboration</h4>
+                  <p>Active participant and finalist in student hackathons, building solutions under collaborative pressure.</p>
+                </div>
+              </div>
+            </div>
+
+            <a class="btn btn-primary" style="margin-top: 28px;" href="Mubashir_Ahmad_Resume.pdf" download="Mubashir_Ahmad_Resume.pdf">
+              <span>Download Full Resume</span>
+              <svg viewBox="0 0 24 24" class="btn-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" /></svg>
+            </a>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="about-card-inner">
+              <div class="about-card-top">
+                <span class="metric-label">Academic & Tech Profile</span>
+                <span class="metric-status">Batch 2025–2029</span>
+              </div>
+
+              <div class="about-card-body">
+                <div class="about-card-row">
+                  <span class="card-row-label">Degree</span>
+                  <span class="card-row-value">B.Tech in Computer Science</span>
+                </div>
+                <div class="about-card-row">
+                  <span class="card-row-label">Institution</span>
+                  <span class="card-row-value">Allenhouse Inst. of Tech</span>
+                </div>
+                <div class="about-card-row">
+                  <span class="card-row-label">Current GPA</span>
+                  <span class="card-row-value" style="color: var(--primary);">8.0 / 10.0</span>
+                </div>
+                <div class="about-card-row">
+                  <span class="card-row-label">Relevant Coursework</span>
+                  <span class="card-row-value">DSA, Web Dev, DBMS</span>
+                </div>
+              </div>
+
+              <div class="about-card-grid">
+                <div>
+                  <span class="mini-number">2025</span>
+                  <span class="mini-label">GFG 30-Day DSA Finalist</span>
+                </div>
+                <div>
+                  <span class="mini-number">2025</span>
+                  <span class="mini-label">IDC Hackathon 2.0</span>
+                </div>
+                <div style="grid-column: span 2; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+                  <div>
+                    <span style="font-size: 11px; font-weight: 600; color: var(--primary); text-transform: uppercase; letter-spacing: 0.08em; display:block;">Problem Solving</span>
+                    <span style="font-size: 14px; font-weight: 700; color: var(--text);">GFG 30-Day DSA Challenge (Finalist 2025)</span>
+                  </div>
+                  <div style="display: flex; gap: 8px;">
+                    <a href="https://leetcode.com/u/mubashirkh_1839/" target="_blank" rel="noopener noreferrer" style="font-size: 12px; font-weight: 600; color: #ffa116; background: rgba(255,161,22,0.12); border: 1px solid rgba(255,161,22,0.3); padding: 5px 12px; border-radius: 8px; display: inline-flex; align-items: center; gap: 4px;">
+                      LeetCode ↗
+                    </a>
+                    <a href="https://github.com/mubashirkh1839-afk" target="_blank" rel="noopener noreferrer" style="font-size: 12px; font-weight: 600; color: var(--primary); background: rgba(56,189,248,0.1); border: 1px solid rgba(56,189,248,0.25); padding: 5px 12px; border-radius: 8px;">
+                      GitHub ↗
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS & COMPETENCIES SECTION -->
+      <section class="section" id="skills">
+        <div class="container centered">
+          <div class="section-heading reveal">
+            <span class="section-label">
+              <span></span>
+              Core Technical Skills
+            </span>
+            <h2>Technologies I work with daily.</h2>
+            <p>From frontend interfaces to databases and real-time backend microservices.</p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <div class="service-card-head">
+                <span class="service-icon">01</span>
+                <span class="service-arrow">↗</span>
+              </div>
+              <h3>Frontend Engineering</h3>
+              <p>Modern, responsive client applications built with component-driven architecture and fluid motion.</p>
+              <ul class="service-list">
+                <li>React.js & Vite</li>
+                <li>Tailwind CSS & Modern CSS</li>
+                <li>JavaScript (ES6+) & HTML5</li>
+                <li>State Management & Leaflet Maps</li>
+              </ul>
+            </article>
+
+            <article class="service-card active reveal">
+              <div class="service-card-head">
+                <span class="service-icon">02</span>
+                <span class="service-arrow">↗</span>
+              </div>
+              <h3>Backend & Real-Time</h3>
+              <p>Scalable RESTful services, database modeling, and real-time bidirectional event communication.</p>
+              <ul class="service-list">
+                <li>Node.js & Express.js</li>
+                <li>MongoDB & Mongoose</li>
+                <li>Socket.IO (Live Tracking)</li>
+                <li>JWT & OTP Secure Auth</li>
+              </ul>
+            </article>
+
+            <article class="service-card reveal">
+              <div class="service-card-head">
+                <span class="service-icon">03</span>
+                <span class="service-arrow">↗</span>
+              </div>
+              <h3>Tools & Foundations</h3>
+              <p>Core programming languages, DevOps deployment tools, and cloud infrastructure foundations.</p>
+              <ul class="service-list">
+                <li>Python & C++</li>
+                <li>AWS & GCP Foundations</li>
+                <li>Git, GitHub & Version Control</li>
+                <li>Linux OS & Shell Scripting</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="section section-dark" id="projects">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <span class="section-label">
+              <span></span>
+              Featured Project
+            </span>
+            <h2>My Real-World Project.</h2>
+            <p>A full-stack web application designed and built from scratch to solve genuine real-world hunger and food waste issues.</p>
+          </div>
+
+          <div class="project-single-wrapper">
+            <!-- Featured Project: FoodRescue -->
+            <article class="project-card project-card-featured reveal" data-category="fullstack">
+              <div class="project-thumbnail thumb-one">
+                <span class="project-tag">Full-Stack Web App</span>
+              </div>
+              <div class="project-content">
+                <div class="project-meta">
+                  <span>Production Project</span>
+                  <div class="project-links">
+                    <a href="https://lnkd.in/dQ2KAJUB" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="Live Demo">
+                      Live Demo ↗
+                    </a>
+                    <a href="https://lnkd.in/dcukuMUd" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code">
+                      GitHub Code ↗
+                    </a>
+                  </div>
+                </div>
+                <h3>FoodRescue - Full-Stack Food Waste & Relief Platform</h3>
+                <p>
+                  An end-to-end full-stack platform built to connect food donors, local volunteers, and partner NGOs to combat hunger and minimize food waste.
+                </p>
+                <div class="project-features-list">
+                  <div class="project-feature-item">
+                    <strong>📍 Real-Time Leaflet Mapping:</strong> Interactive maps for live donor location discovery and volunteer dispatch.
+                  </div>
+                  <div class="project-feature-item">
+                    <strong>🔐 Dual-Tier OTP Verification:</strong> Secure chain-of-custody verification ensuring food arrives reliably from donor to NGO.
+                  </div>
+                  <div class="project-feature-item">
+                    <strong>⚡ Live WebSocket Tracking:</strong> Real-time tracking and instant status synchronization using Socket.IO.
+                  </div>
+                  <div class="project-feature-item">
+                    <strong>🌱 ESG Environmental Impact Engine:</strong> Automated calculations of environmental metrics, meals served, and carbon emissions saved.
+                  </div>
+                </div>
+                <div class="project-tech-pills" style="margin-top: 24px;">
+                  <span>React</span>
+                  <span>Vite</span>
+                  <span>Tailwind CSS</span>
+                  <span>Node.js</span>
+                  <span>Express.js</span>
+                  <span>MongoDB</span>
+                  <span>Socket.IO</span>
+                  <span>Leaflet</span>
+                  <span>JWT</span>
+                  <span>Netlify</span>
+                  <span>Render</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE & ACHIEVEMENTS SECTION -->
+      <section class="section" id="experience">
+        <div class="container experience-grid">
+          <div class="section-intro reveal">
+            <span class="section-label dark">
+              <span></span>
+              Milestones & Education
+            </span>
+            <h2>Continuous learning, verified achievements.</h2>
+            <p>
+              My journey is defined by solving real coding problems, building full-stack projects, and competing in collaborative developer challenges.
+            </p>
+            <a class="btn btn-secondary dark-btn" href="Mubashir_Ahmad_Resume.pdf" download="Mubashir_Ahmad_Resume.pdf" style="margin-top: 24px;">
+              <span>View Verified Resume</span>
+              <svg viewBox="0 0 24 24" class="btn-icon"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
+            </a>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <span class="timeline-date">2025 — 2029 (Current)</span>
+              <div class="timeline-card">
+                <span class="timeline-status">Education</span>
+                <h3>B.Tech in Computer Science</h3>
+                <p>Allenhouse Institute of Technology • Current GPA: 8.0/10.0. Focus on Data Structures, Algorithms, Database Management, and Web Development.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-date">2025</span>
+              <div class="timeline-card">
+                <span class="timeline-status">Hackathon Participant</span>
+                <h3>IDC Hackathon 2.0 (Inter-College App Development)</h3>
+                <p>Participated in the competitive inter-college app development hackathon, collaborating on building functional, problem-solving software under tight deadlines.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-date">2025</span>
+              <div class="timeline-card">
+                <span class="timeline-status">DSA Achievement</span>
+                <h3>GFG 30-Day DSA Challenge – Selected for Finals</h3>
+                <p>Successfully completed GeeksforGeeks 30-day rigorous Data Structures & Algorithms challenge and got selected for the Finals (2025).</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-date">2025</span>
+              <div class="timeline-card">
+                <span class="timeline-status">Competitive Coding</span>
+                <h3>CodeFuse (Sponsored by GeeksforGeeks)</h3>
+                <p>Participated in CodeFuse 2025 sponsored by GFG, testing algorithm optimization, logical problem solving, and engineering fundamentals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHILOSOPHY & WORKFLOW SECTION -->
+      <section class="section testimonial-section">
+        <div class="container testimonial-grid">
+          <div class="testimonial-card reveal">
+            <span class="quote-mark">“</span>
+            <p>
+              Enthusiastic Computer Science undergraduate dedicated to mastering modern full-stack web engineering, practicing algorithms, and developing impactful software like FoodRescue.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div>
+                <strong>Mubashir Ahmad</strong>
+                <span>CS Undergraduate • Learning Full-Stack & Cloud</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-content reveal">
+            <span class="section-label dark">
+              <span></span>
+              Learning Approach
+            </span>
+            <h2>How I approach building projects.</h2>
+            <div class="process-list">
+              <div class="process-row">
+                <span class="process-number">01</span>
+                <div>
+                  <h4>Understand & Design</h4>
+                  <p>Break down the problem, study the architecture, and design modular schemas and user journeys.</p>
+                </div>
+              </div>
+              <div class="process-row">
+                <span class="process-number">02</span>
+                <div>
+                  <h4>Hands-on Code</h4>
+                  <p>Implement core logic, integrate real-time APIs/WebSockets, and test authentication thoroughly.</p>
+                </div>
+              </div>
+              <div class="process-row">
+                <span class="process-number">03</span>
+                <div>
+                  <h4>Deploy & Learn</h4>
+                  <p>Deploy to cloud platforms (Netlify/Render), collect feedback, and optimize code efficiency.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION WITH DIRECT EMAIL INBOX DELIVERY -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="section-label">
+              <span></span>
+              Get In Touch
+            </span>
+            <h2>Let’s connect and collaborate.</h2>
+            <p>
+              I am actively looking for software internships, student developer opportunities, and project collaborations. Feel free to send a message directly to my inbox!
+            </p>
+
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="contact-icon">✉</span>
+                <div style="flex-grow:1;">
+                  <span style="display:block; font-size:12px; color:var(--muted);">Direct Email</span>
+                  <a href="mailto:mubashirkh1839@gmail.com" id="email-text">mubashirkh1839@gmail.com</a>
+                </div>
+                <button type="button" class="btn-copy" id="btn-copy-email" title="Copy Email">
+                  <span>Copy</span>
+                </button>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" style="color: #25d366; border-color: rgba(37, 211, 102, 0.4); background: rgba(37, 211, 102, 0.1);">💬</span>
+                <div style="flex-grow:1;">
+                  <span style="display:block; font-size:12px; color:var(--muted);">Instant Chat (WhatsApp)</span>
+                  <a href="https://wa.me/917905776252?text=Hi%20Mubashir,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" style="color: #25d366; font-weight:600;">+91 7905776252 &rarr;</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">⌕</span>
+                <div>
+                  <span style="display:block; font-size:12px; color:var(--muted);">Location</span>
+                  <span>Kanpur, Uttar Pradesh (Open to Remote / Relocation)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DIRECT EMAIL CONTACT FORM (Configured with Formspree / Web3Forms fallback) -->
+          <form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/ajax/mubashirkh1839@gmail.com" method="POST">
+            <!-- Formsubmit configuration helpers -->
+            <input type="hidden" name="_subject" value="New Portfolio Inquiry for Mubashir Ahmad!" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+
+            <div class="form-grid">
+              <label>
+                <span>Your Name *</span>
+                <input type="text" name="name" placeholder="John Doe" required />
+              </label>
+              <label>
+                <span>Your Email *</span>
+                <input type="email" name="email" placeholder="john@example.com" required />
+              </label>
+            </div>
+
+            <label>
+              <span>Opportunity / Purpose</span>
+              <select name="project_type">
+                <option value="Internship">Software / Web Development Internship</option>
+                <option value="Project Collaboration">Open Source / Project Collaboration</option>
+                <option value="Mentorship / Guidance">Technical Mentorship / Networking</option>
+                <option value="Freelance Web Project">Freelance Web Development</option>
+                <option value="Other Inquiry">Other Inquiry</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Message *</span>
+              <textarea name="message" rows="4" placeholder="Tell me about your team, idea, or project..." required></textarea>
+            </label>
+
+            <button class="btn btn-primary submit-btn" id="submit-btn" type="submit">
+              <span>Send Message Directly</span>
+              <svg viewBox="0 0 24 24" class="btn-icon">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark">M</span>
+          <span class="brand-text">Mubashir Ahmad</span>
+        </a>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Milestones</a>
+          <a href="#contact">Contact</a>
+          <a href="https://github.com/mubashirkh1839-afk" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/mubashir-ahmad-92167a363" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://leetcode.com/u/mubashirkh_1839/" target="_blank" rel="noopener noreferrer" style="color: #ffa116;">LeetCode</a>
+        </div>
+        <span class="footer-copy">© 2026 Mubashir Ahmad. Built with clean code & modern tech dark design.</span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Custom Glow Cursor -->
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <!-- Quick Command Palette (Press Ctrl+K or Click Terminal Icon) -->
+  <div class="command-palette-backdrop" id="cmd-backdrop">
+    <div class="command-palette" id="cmd-palette">
+      <div class="cmd-header">
+        <span class="cmd-icon">⌘</span>
+        <input type="text" id="cmd-input" placeholder="Type a command (help, resume, projects, contact, skills, leetcode)..." autocomplete="off" />
+        <span class="cmd-esc">ESC</span>
+      </div>
+      <div class="cmd-results" id="cmd-results">
+        <div class="cmd-item" data-cmd="resume"><span>📄 Download Resume PDF</span><span class="cmd-tag">Open</span></div>
+        <div class="cmd-item" data-cmd="projects"><span>🚀 View FoodRescue Project</span><span class="cmd-tag">Navigate</span></div>
+        <div class="cmd-item" data-cmd="leetcode"><span>⚡ Open LeetCode Profile</span><span class="cmd-tag">External</span></div>
+        <div class="cmd-item" data-cmd="github"><span>🐙 Open GitHub Profile</span><span class="cmd-tag">External</span></div>
+        <div class="cmd-item" data-cmd="linkedin"><span>💼 Open LinkedIn Profile</span><span class="cmd-tag">External</span></div>
+        <div class="cmd-item" data-cmd="contact"><span>✉️ Jump to Contact Form</span><span class="cmd-tag">Navigate</span></div>
+      </div>
+      <div class="cmd-footer">
+        <span>ProTip: Press <kbd>Ctrl</kbd> + <kbd>K</kbd> anywhere</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
